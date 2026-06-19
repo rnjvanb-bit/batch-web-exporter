@@ -3,25 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <title>Batch Web Exporter</title>
-    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: sans-serif;
+        font-size: 12px;
+        padding: 12px;
+        color: #e0e0e0;
+        background-color: #2b2b2b;
+      }
+      button {
+        background: #0078d4;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 8px;
+      }
+      select, label { display: block; margin-top: 8px; }
+    </style>
   </head>
   <body>
-    <h2>Batch Web Exporter</h2>
+    <h3>Batch Web Exporter</h3>
 
-    <label for="format">Format</label>
-    <select id="format">
-      <option value="png">PNG</option>
-      <option value="jpg">JPG</option>
-      <option value="svg">SVG</option>
-      <option value="webp">WebP</option>
-    </select>
+    <label>Format
+      <select id="format">
+        <option value="png">PNG</option>
+        <option value="jpg">JPG</option>
+        <option value="webp">WebP</option>
+      </select>
+    </label>
 
-    <label for="scale">Scale</label>
-    <select id="scale">
-      <option value="1">1x</option>
-      <option value="2">2x</option>
-      <option value="3">3x</option>
-    </select>
+    <label>Scale
+      <select id="scale">
+        <option value="1">1x</option>
+        <option value="2">2x</option>
+        <option value="3">3x</option>
+      </select>
+    </label>
 
     <label>
       <input type="checkbox" id="visibleOnly" checked />
@@ -30,7 +49,7 @@
 
     <button id="exportBtn">Export All Layers</button>
 
-    <div id="status"></div>
+    <p id="status"></p>
 
     <script src="index.js"></script>
   </body>

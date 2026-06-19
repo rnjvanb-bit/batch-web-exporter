@@ -1,5 +1,10 @@
-const { app, core } = require("photoshop");
-const { storage } = require("uxp");
+let app, core, storage;
+try {
+  ({ app, core } = require("photoshop"));
+  ({ storage } = require("uxp"));
+} catch (e) {
+  console.warn("Running outside Photoshop UXP runtime:", e.message);
+}
 
 document.getElementById("exportBtn").addEventListener("click", exportLayers);
 
