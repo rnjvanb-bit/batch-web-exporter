@@ -24,6 +24,8 @@ A UXP panel plugin for Adobe Photoshop that batch exports all layers in the acti
 
 1. Open a document in Photoshop
 2. Open the **Batch Web Exporter** panel from the Plugins menu
-3. Choose your format and scale
-4. Click **Export All Layers**
-5. Select a destination folder when prompted
+3. Choose your output format (PNG, JPG, SVG, or WebP)
+4. Choose your export scale (1x, 2x, or 3x)
+5. Check **Visible layers only** to skip hidden layers
+6. Click **Export All Layers**
+7. Select a destination folder when prompted
