@@ -10,6 +10,9 @@
       "minVersion": "23.0.0"
     }
   ],
+  "requiredPermissions": {
+    "localFileSystem": "fullAccess"
+  },
   "entrypoints": [
     {
       "type": "panel",
