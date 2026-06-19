@@ -1,0 +1,22 @@
+{
+  "id": "com.batchwebexporter",
+  "name": "Batch Web Exporter",
+  "version": "1.0.0",
+  "manifestVersion": 5,
+  "host": [
+    {
+      "app": "PS",
+      "minVersion": "23.0.0"
+    }
+  ],
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "mainPanel",
+      "label": { "default": "Batch Web Exporter" },
+      "minimumSize": { "width": 200, "height": 300 },
+      "maximumSize": { "width": 600, "height": 800 },
+      "preferredDockedSize": { "width": 260, "height": 400 }
+    }
+  ]
+}

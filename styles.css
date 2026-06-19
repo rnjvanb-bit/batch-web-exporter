@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  font-size: 12px;
+  padding: 12px;
+  color: #e0e0e0;
+  background-color: #2b2b2b;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+h2 {
+  font-size: 13px;
+  margin: 0 0 4px 0;
+  color: #ffffff;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: #bbbbbb;
+}
+
+select {
+  background: #3c3c3c;
+  color: #e0e0e0;
+  border: 1px solid #555;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+button {
+  background: #0078d4;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+button:hover {
+  background: #106ebe;
+}
+
+#status {
+  color: #aaaaaa;
+  font-style: italic;
+  min-height: 16px;
+}
