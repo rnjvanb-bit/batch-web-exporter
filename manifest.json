@@ -3,6 +3,7 @@
   "name": "Batch Web Exporter",
   "version": "1.0.0",
   "manifestVersion": 5,
+  "main": "index.html",
   "host": [
     {
       "app": "PS",
